@@ -33,6 +33,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
 
 </head>
 
@@ -110,7 +111,7 @@
                         <!--<i class="fa fa-4x fa-diamond text-primary sr-icons"></i>-->
 						<i class="glyphicon glyphicon-console sr-icons"></i>
                         <h3>Development</h3>
-                        <p class="text-muted">HTML. CSS. Bootstrap. Java.</p>
+                        <p class="text-muted">HTML. CSS. JavaScript. JQuery. Bootstrap. Java. SQL.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
@@ -131,104 +132,153 @@
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter <!--popup-gallery-->">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://www.openprocessing.org/sketch/394648" target="_blank" class="portfolio-box">
-                        <img src="img/portfolio/FOMO.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Java game
-                                </div>
-                                <div class="project-name">
-                                    FOMO
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/barnesgia/SpaceStation" target="_blank" class="portfolio-box">
-                        <img src="img/portfolio/SpaceStation.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    HTML/CSS
-                                </div>
-                                <div class="project-name">
-                                    The SpaceStation
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://www.youtube.com/channel/UCuPeoFakjNYV0zacQchzg-g" target="_blank" class="portfolio-box">
-                        <img src="img/portfolio/video.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Video Editing
-                                </div>
-                                <div class="project-name">
-                                    Actual Wolves Sketch Comedy
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				<div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6" class="popup-gallery">
-                    <a href="img/portfolio/doubleFeatureFullPoster.jpg" target="_blank" class="portfolio-box">
-                        <img src="img/portfolio/DFThumb.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Design
-                                </div>
-                                <div class="project-name">
-                                    Double Feature Poster
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/AWHalloweenBannerFull.png" target="_blank" class="portfolio-box">
-                        <img src="img/portfolio/AWHalloweenBannerThumb.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Design
-                                </div>
-                                <div class="project-name">
-                                    Actual Wolves Halloween Show Banner
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/WeThePeopleFull.jpg" target="_blank" class="portfolio-box">
-                        <img src="img/portfolio/WeThePeopleThumb.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Design
-                                </div>
-                                <div class="project-name">
-                                    We The People
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+	
+	<!--projects-->
+	
+	<section id="portfolio" class="bg-primary">
+			<div class="content-container">
+				<div class="carousel slide hidden-xs" id="featured">
+					<ol class="carousel-indicators">
+						<li data-target="#featured" data-slide-to="0" class="active"></li>
+						<li data-target="#featured" data-slide-to="1"></li>
+						<li data-target="#featured" data-slide-to="2"></li>
+						<li data-target="#featured" data-slide-to="3"></li>
+						<li data-target="#featured" data-slide-to="4"></li>
+						<li data-target="#featured" data-slide-to="5"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img class="center-block" src="img/portfolio/FOMO.png">
+						</div>
+						<div class="item">
+							<img class="center-block" src="img/portfolio/SpaceStation.png">
+						</div>
+						<div class="item">
+							<img class="center-block" src="img/portfolio/video.png">
+						</div>
+						<div class="item">
+							<img class="center-block" src="img/portfolio/DFThumb.png">
+						</div>
+						<div class="item">
+							<img class="center-block" src="img/portfolio/AWHalloweenBannerThumb.png">
+						</div>
+						<div class="item">
+							<img class="center-block" src="img/portfolio/WeThePeopleThumb.png">
+						</div>
+					</div>
+					
+					<a class="left carousel-control" href="#featured" roll="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#featured" roll="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
 				</div>
-            </div>
-        </div>
-    </section>
+			</div>
+<br><br>
+				<div class="no-padding portfio-view-all collapse">
+					<div class="container-fluid">
+						<div class="row no-gutter"><!--popup-gallery"--> 
+							<div class="col-lg-4 col-sm-6">
+								<a href="https://www.openprocessing.org/sketch/394648" target="_blank" class="portfolio-box">
+									<img src="img/portfolio/FOMO.png" class="img-responsive" alt="">
+									<div class="portfolio-box-caption">
+										<div class="portfolio-box-caption-content">
+											<div class="project-category text-faded">
+												Java game
+											</div>
+											<div class="project-name">
+												FOMO
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-sm-6">
+								<a href="https://github.com/barnesgia/SpaceStation" target="_blank" class="portfolio-box">
+									<img src="img/portfolio/SpaceStation.png" class="img-responsive" alt="">
+									<div class="portfolio-box-caption">
+										<div class="portfolio-box-caption-content">
+											<div class="project-category text-faded">
+												HTML/CSS
+											</div>
+											<div class="project-name">
+												The SpaceStation
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-sm-6">
+								<a href="https://www.youtube.com/channel/UCuPeoFakjNYV0zacQchzg-g" target="_blank" class="portfolio-box">
+									<img src="img/portfolio/video.png" class="img-responsive" alt="">
+									<div class="portfolio-box-caption">
+										<div class="portfolio-box-caption-content">
+											<div class="project-category text-faded">
+												Video Editing
+											</div>
+											<div class="project-name">
+												Actual Wolves Sketch Comedy
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="row no-gutter popup-gallery">
+							<div class="col-lg-4 col-sm-6" class="popup-gallery">
+								<a href="img/portfolio/doubleFeatureFullPoster.jpg" target="_blank" class="portfolio-box">
+									<img src="img/portfolio/DFThumb.png" class="img-responsive" alt="">
+									<div class="portfolio-box-caption">
+										<div class="portfolio-box-caption-content">
+											<div class="project-category text-faded">
+												Design
+											</div>
+											<div class="project-name">
+												Double Feature Poster
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-sm-6">
+								<a href="img/portfolio/AWHalloweenBannerFull.png" target="_blank" class="portfolio-box">
+									<img src="img/portfolio/AWHalloweenBannerThumb.png" class="img-responsive" alt="">
+									<div class="portfolio-box-caption">
+										<div class="portfolio-box-caption-content">
+											<div class="project-category text-faded">
+												Design
+											</div>
+											<div class="project-name">
+												Actual Wolves Halloween Show Banner
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-sm-6">
+								<a href="img/portfolio/WeThePeopleFull.jpg" target="_blank" class="portfolio-box">
+									<img src="img/portfolio/WeThePeopleThumb.png" class="img-responsive" alt="">
+									<div class="portfolio-box-caption">
+										<div class="portfolio-box-caption-content">
+											<div class="project-category text-faded">
+												Design
+											</div>
+											<div class="project-name">
+												We The People
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br><br>
+		<button class="btn portfolio-btn btn-default btn-xl sr-button center-block">See more</button>
+   </section>
+	
+
 
     <aside class="bg-dark" id="info">
         <div class="container text-center">
@@ -258,6 +308,21 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+	
+	<script>
+
+		
+	
+		jQuery(document).ready(function(){
+			jQuery(".portfolio-btn").click(function(){
+			jQuery(".portfio-view-all").slideToggle("slow");
+			jQuery(".portfolio-btn")== moreText ? lessText :moreText;
+				
+		});
+		});
+		
+		
+	</script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
