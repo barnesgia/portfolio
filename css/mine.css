@@ -1,0 +1,21 @@
+.glyphicon {
+	color: #000000;
+	font-size: 50px;
+}
+
+.homeHeading{
+	text-transform: capitalize;
+}
+
+.icon {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.glyphicon-chevron-right, .glyphicon-chevron-left{
+	color: #fff;
+}
+
+ .carousel-control.left, .carousel-control.right {
+ 	background-image: none;
+ }
