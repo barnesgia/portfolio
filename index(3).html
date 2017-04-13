@@ -126,7 +126,7 @@
                     <div class="service-box">
                         <img class="custom-icon" src="img/Python.png">
                         <h3>Python</h3>
-                        <p class="text-muted">Scripting. IDLE. Versions 2 & 3.</p>
+                        <p class="text-muted">Scripting. Selenium. Versions 2 & 3.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
@@ -165,7 +165,7 @@
                     I'm a self-starter and I love creating things,<br>lets create something together!</p>
                     <br>
                     <br>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">More</a>
+                    <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button">More</a>
                 </div>
             </div>
         </div>
@@ -234,31 +234,44 @@
 
 	
 	
-    <aside class="bg-dark" id="info">
+    <section class="bg-dark" id="info">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Want to do a project together?</h2>
 				<hr>
 				<p>Let's get in touch!</p>
-				<div class="col-lg-4 text-center">
+
+				<form method="post" action="contact.php">
+        
+			    	<label>Name</label>
+			    	<input name="name" placeholder="Type Here">
+			            
+			    	<label>Email</label>
+			    	<input name="email" type="email" placeholder="Type Here">
+			            
+			    	<label>Message</label>
+			    	<textarea name="message" placeholder="Type Here"></textarea>
+			        
+			        <label>*What is 2+2? (Anti-spam)</label>
+					<input name="human" placeholder="Type Here">
+
+			    	<input id="submit" name="submit" type="submit" value="Submit">
+		        
+				</form>
+				<br><br>
+				<div class="col-lg-6 text-center">
 					<a href="https://github.com/barnesgia" target="_blank">
 						<img src="img/portfolio/githubLogo.png" class="icon" >
 					</a>
 				</div>
-				<div class="col-lg-4 text-center">
-					<a href="https://gmail.com" target="_blank">
-						<img src="img/portfolio/mailIcon.png" class="icon" >
-						<p class="mail">georgiaabarnes@gmail.com</p>
-					</a>
-				</div>
-				<div class="col-lg-4 text-center">
+				<div class="col-lg-6 text-center">
 					<a href="https://www.linkedin.com/in/georgiaabarnes?trk=nav_responsive_tab_profile" target="_blank">
 						<img src="img/portfolio/linkedInLogo.png" class="icon" >
 					</a>
 				</div>
             </div>
         </div>
-    </aside>
+    </section>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
